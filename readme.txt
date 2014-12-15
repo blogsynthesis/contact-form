@@ -1,6 +1,6 @@
 === Jetpack Contact Form ===
-Contributors: mdawaffe, automattic, nickmomrik
-Tags: WordPress.com, contact form, email
+Contributors: BlogSynthesis
+Tags: Jetpack, WordPress.com, contact form, email
 Stable tag: 3.2.1
 Requires at least: 3.0
 Tested up to: 4.1
@@ -41,10 +41,9 @@ The `[contact-form]` shortcode has the following parameters:
 
 == Frequently Asked Questions ==
 
-= What's a Grunion? =
+= Why this plugin is similar to Grunion Contact form or Jetpack Contact Form module? =
 
-The plugin was written in Southern California, home of an unusual fish call the [Grunion](http://en.wikipedia.org/wiki/Grunion).
-There's no correlation between fish and contact forms as far as I can tell; it's just a fun sounding word that's geographically apropos.
+Actually this plugin is exactly the same plugin as Jetpack Contact Form.
 
 = What about spam? Will I get a lot from the contact form? =
 
@@ -70,63 +69,5 @@ Just make the title of your post "Contact Mary" or put "Hey, drop John a line wi
 
 == Changelog ==
 
-= 2.4 =
-* Support forms with no email address
-* Don't include *** SPAM *** in the subject line of unspammed items
-* Fix form processing when there is more than one form on a page (Koff)
-* Retina images added
-
-= 2.3 =
-* Fix for Chrome going 'oh snap' when inserting a new contact form
-* Fix for export/import issue that created users incorrectly
-* Add 'grunion_pre_message_sent' action (dimadin)
-* Updates to work with WordPress 3.3+ changes to wp-admin UI
-
-= 2.2 =
-* Only load grunion.css on pages with a contact form
-* Be better about checking for valid email addresses
-* Track the permalink for the contact form that was used and provide that detail in the email and Feedbacks page
-* Fix for the problem where every feedback would be marked as spam if the Akismet plugin wasn't activated
-* Make sure wp_kses only gets used on strings
-* New filter: grunion_still_email_spam, for those that want to still gets emails even when a feedback has been flagged as spam
-
-= 2.1 =
-* Fix error where the form builder wouldn't load correctly when using mapped domains
-* Don't attempt to check form submission for spam unless the Akismet plugin is active
-* Fixed form styles so that they wouldn't affect forms outside grunion container
-* Fixed "Add form to post" button in IE7
-* Fixed "re-arrange" in drag and drop so that it doesn't hard return
-* Hid "re-arrange" once you start dragging
-* Fixed issue where if you had content in the post, and added a form the content disappeared
-* Fixed form field width for when form is in the sidebar
-* Fixed First textarea label is always missing in email
-* Fixed Name, Email, Web site are always shown in default labels
-* Fixed Result page only shows the first textarea message
-* Fixed Results missing in the email notification
-* Limit form field submissions to valid text
-* Fixed broken path to button-grad-active.png
-* Encode drop down options so that quotes and commas work correctly
-* Encode quotes in field labels so that they show up correctly
-* Fix the from address formatting in the email headers
-* Use the correct bulk action filter to limit the list to supported actions only
-* Removed inline styles
-* Moved basic form CSS to include
-* Changed HTML shortcode insert from .html() to .val()
-* Fixed HTML encoding of option values for select fields
-
-= 1.2 =
-* Fix a PHP Warning in some CGI evironments.
-
-= 1.1 =
-* Move to shortcode API.
-* Add `to`, `subject` and `show-subject` options.
-* Allow use in text widgets.
-* Move spam check to a filter.
-
-== Upgrade Notice ==
-
-= 1.2 =
-Fixes a PHP Warning.
-
-= 1.1 =
-Now with more options!
+= 3.2.1 =
+* This plugin is same as Jetpack Contact form module v3.2.1

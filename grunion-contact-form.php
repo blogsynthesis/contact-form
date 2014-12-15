@@ -23,7 +23,7 @@
  *
  **********************************************************/
 
-define( 'JETPACK__VERSION', '3.2.1' );
+define( 'CONTACT_FORM_VERSION', '3.2.1' );
 define( 'GRUNION_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GRUNION_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
@@ -141,9 +141,9 @@ class Grunion_Contact_Form_Plugin {
 		 *	add_action('wp_print_styles', 'remove_grunion_style');
 		 */
 		if( is_rtl() ){
-			wp_register_style( 'grunion.css', GRUNION_PLUGIN_URL . 'css/rtl/grunion-rtl.css', array(), JETPACK__VERSION );
+			wp_register_style( 'grunion.css', GRUNION_PLUGIN_URL . 'css/rtl/grunion-rtl.css', array(), CONTACT_FORM_VERSION );
 		} else {
-			wp_register_style( 'grunion.css', GRUNION_PLUGIN_URL . 'css/grunion.css', array(), JETPACK__VERSION );
+			wp_register_style( 'grunion.css', GRUNION_PLUGIN_URL . 'css/grunion.css', array(), CONTACT_FORM_VERSION );
 		}
 	}
 
