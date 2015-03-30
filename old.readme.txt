@@ -1,9 +1,9 @@
 === Grunion Contact Form ===
 Contributors: mdawaffe, automattic, nickmomrik
 Tags: WordPress.com, contact form, email
-Stable tag: 2.4
+Stable tag: 2.3
 Requires at least: 3.0
-Tested up to: 3.2
+Tested up to: 3.3
 
 Add a contact form to any post, page or text widget. Messages will be sent to any email address you choose. As seen on WordPress.com.
 

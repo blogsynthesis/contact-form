@@ -1,9 +1,9 @@
 === Jetpack Contact Form ===
 Contributors: BlogSynthesis
 Tags: Jetpack, WordPress.com, contact form, email
-Stable tag: 3.2.1
-Requires at least: 3.0
-Tested up to: 4.1
+Stable tag: 3.4.1
+Requires at least: 4.0
+Tested up to: 4.2
 
 Add a contact form to any post, page or text widget. Messages will be sent to any email address you choose. As seen on WordPress.com.
 
