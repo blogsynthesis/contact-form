@@ -69,5 +69,8 @@ Just make the title of your post "Contact Mary" or put "Hey, drop John a line wi
 
 == Changelog ==
 
+= 3.4.1 =
+* Synced with Jetpack Contact form module v3.4.1
+
 = 3.2.1 =
 * This plugin is same as Jetpack Contact form module v3.2.1
